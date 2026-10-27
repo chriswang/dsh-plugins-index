@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "title": {
+    "en": "chriswang's DSH plugins",
+    "zh": "chriswang 的 DSH 插件"
+  },
+  "plugins": [
+    {
+      "name": "dsh-conversation-tree",
+      "title": {
+        "en": "Conversation Tree",
+        "zh": "对话树"
+      },
+      "description": {
+        "en": "A collapsible column beside the conversation: organise conversations into a tree by workspace and topic, and open the real sessions in place.",
+        "zh": "会话列旁的一条可折叠栏：把对话按工作区与主题组织成树，并就地打开真实会话。"
+      },
+      "icon": "icons/dsh-conversation-tree.svg",
+      "author": "chriswang",
+      "homepage": "https://github.com/chriswang/dsh-conversation-tree#readme",
+      "repository": {
+        "url": "https://github.com/chriswang/dsh-conversation-tree"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793091521,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    }
+  ]
+}
